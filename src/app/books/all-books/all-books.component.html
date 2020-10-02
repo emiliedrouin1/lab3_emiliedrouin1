@@ -1,0 +1,130 @@
+<h1>Our Catalogue</h1>
+  <h4>Here are details of the Book {{getBooks('1001').id}}</h4>
+  <div class="row">
+    <div class="col-xs-3">Category:</div>
+    <div class="col-xs-9">{{getBooks('1001').category }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Title:</div>
+    <div class="col-xs-9">{{getBooks('1001').title }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Cost:</div>
+    <div class="col-xs-9">{{getBooks('1001').cost }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1001').authors">
+    <div class="col-xs-3">Author:</div>
+    <div class="col-xs-9"><span [innerHTML]="getBooks('1001').authors | authornames"></span></div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1001').year">
+    <div class="col-xs-3">Year:</div>
+    <div class="col-xs-9">{{ getBooks('1001').year }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1001').description">
+    <div class="col-xs-3">Description:</div>
+    <div class="col-xs-9">{{ getBooks('1001').description }}</div>
+  </div>
+
+  <h4>Here are details of the Book {{getBooks('1002').id}}</h4>
+  <div class="row">
+    <div class="col-xs-3">Category:</div>
+    <div class="col-xs-9">{{getBooks('1002').category }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Title:</div>
+    <div class="col-xs-9">{{getBooks('1002').title }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Cost:</div>
+    <div class="col-xs-9">{{getBooks('1002').cost }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1002').authors">
+    <div class="col-xs-3">Author:</div>
+    <div class="col-xs-9"><span [innerHTML]="getBooks('1002').authors | authornames"></span></div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1002').year">
+    <div class="col-xs-3">Year:</div>
+    <div class="col-xs-9">{{ getBooks('1002').year }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1002').description">
+    <div class="col-xs-3">Description:</div>
+    <div class="col-xs-9">{{ getBooks('1002').description }}</div>
+  </div>
+
+  <h4>Here are details of the Book {{getBooks('1003').id}}</h4>
+  <div class="row">
+    <div class="col-xs-3">Category:</div>
+    <div class="col-xs-9">{{getBooks('1003').category }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Title:</div>
+    <div class="col-xs-9">{{getBooks('1003').title }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Cost:</div>
+    <div class="col-xs-9">{{getBooks('1003').cost }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1003').authors">
+    <div class="col-xs-3">Author:</div>
+    <div class="col-xs-9"><span [innerHTML]="getBooks('1003').authors | authornames"></span></div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1003').year">
+    <div class="col-xs-3">Year:</div>
+    <div class="col-xs-9">{{ getBooks('1003').year }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1003').description">
+    <div class="col-xs-3">Description:</div>
+    <div class="col-xs-9">{{ getBooks('1003').description }}</div>
+  </div>
+
+  <h4>Here are details of the Book {{getBooks('1004').id}}</h4>
+  <div class="row">
+    <div class="col-xs-3">Category:</div>
+    <div class="col-xs-9">{{getBooks('1004').category }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Title:</div>
+    <div class="col-xs-9">{{getBooks('1004').title }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Cost:</div>
+    <div class="col-xs-9">{{getBooks('1004').cost }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1004').authors">
+    <div class="col-xs-3">Author:</div>
+    <div class="col-xs-9"><span [innerHTML]="getBooks('1004').authors | authornames"></span></div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1004').year">
+    <div class="col-xs-3">Year:</div>
+    <div class="col-xs-9">{{ getBooks('1004').year }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1004').description">
+    <div class="col-xs-3">Description:</div>
+    <div class="col-xs-9">{{ getBooks('1004').description }}</div>
+  </div>
+
+  <h4>Here are details of the Book {{getBooks('1005').id}}</h4>
+  <div class="row">
+    <div class="col-xs-3">Category:</div>
+    <div class="col-xs-9">{{getBooks('1005').category }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Title:</div>
+    <div class="col-xs-9">{{getBooks('1005').title }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Cost:</div>
+    <div class="col-xs-9">{{getBooks('1005').cost }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1005').authors">
+    <div class="col-xs-3">Author:</div>
+    <div class="col-xs-9"><span [innerHTML]="getBooks('1005').authors | authornames"></span></div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1005').year">
+    <div class="col-xs-3">Year:</div>
+    <div class="col-xs-9">{{ getBooks('1005').year }}</div>
+  </div>
+  <div class="row" [hidden]="!getBooks('1005').description">
+    <div class="col-xs-3">Description:</div>
+    <div class="col-xs-9">{{ getBooks('1005').description }}</div>
+  </div>
